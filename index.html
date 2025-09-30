@@ -1,9 +1,1 @@
 const API = 'https://script.google.com/macros/s/AKfycbzllD0rmbtNU-nRglTutUWHaPbj-KQwLYf7iVXhs3bclW1PmQhOpGZ0T8dwBDDlrN8Gfw/exec';
-
-// Make a GET request to the Google Apps Script API
-fetch(API + '?ping=true')
-  .then(response => response.text())
-  .then(data => {
-    console.log('Server Response:', data);
-  })
-  .catch(error => console.error('Error:', error));
